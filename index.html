@@ -9,6 +9,10 @@
 </head>
 
 <body>
+
+    <button onclick="game('rock')">Rock</button>
+    <button onclick="game('paper')">paper</button>
+    <button onclick="game('scissors')">scissors</button>
     <script>
 
         function computerPlay() {
@@ -46,11 +50,8 @@
         }
 
 
-        function game() {
-            for (let i = 0; i < 5; i++) {
-                let playerSleeee = prompt()
-                playRound(playerSleeee, computerPlay())
-            }
+        function game(playerSleeee) {
+            playRound(playerSleeee, computerPlay())
         }
 
     </script>
